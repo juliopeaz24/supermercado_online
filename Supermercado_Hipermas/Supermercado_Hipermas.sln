@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Supermercado_Hipermas", ".", "{1C08952F-E371-4654-8A1E-8FA850A0666C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/Supermercado_Hipermas"
+		Debug.AspNetCompiler.PhysicalPath = "..\Supermercado_Hipermas\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Supermercado_Hipermas\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Supermercado_Hipermas"
+		Release.AspNetCompiler.PhysicalPath = "..\Supermercado_Hipermas\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Supermercado_Hipermas\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "15598"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C08952F-E371-4654-8A1E-8FA850A0666C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C08952F-E371-4654-8A1E-8FA850A0666C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

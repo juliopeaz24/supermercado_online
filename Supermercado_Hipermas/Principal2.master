@@ -1,0 +1,201 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal2.master.cs" Inherits="Principal2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Principal.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            text-align: center;
+            width: 914px;
+        }
+        .auto-style5
+        {
+            width: 283px;
+        }
+        .auto-style8
+        {
+            width: 283px;
+            height: 102px;
+        }
+        .auto-style9
+        {
+            width: 223px;
+        }
+        .auto-style10
+        {
+            width: 223px;
+            height: 102px;
+        }
+        .auto-style12
+        {
+            width: 138px;
+        }
+        .auto-style13
+        {
+            width: 138px;
+            height: 102px;
+        }
+        .auto-style14
+        {
+            width: 283px;
+            height: 23px;
+        }
+        .auto-style15
+        {
+            width: 223px;
+            height: 23px;
+        }
+        .auto-style16
+        {
+            width: 138px;
+            height: 23px;
+        }
+        .auto-style17
+        {
+            width: 213px;
+        }
+        .auto-style18
+        {
+            width: 213px;
+            height: 102px;
+        }
+        .auto-style19
+        {
+            width: 213px;
+            height: 23px;
+            text-align: right;
+        }
+        .auto-style22
+        {
+            width: 100%;
+        }
+        .auto-style23
+        {
+            width: 202px;
+        }
+        </style>
+   
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="loginDisplay">
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style5">&nbsp;</td>
+                        <td class="auto-style9">&nbsp;</td>
+                        <td class="auto-style12">&nbsp;</td>
+                        <td class="auto-style17">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style8">
+                            <asp:ImageButton ID="imgbtnLogo" runat="server" Height="89px" ImageUrl="~/Images/Logo Hipermás.jpg" Width="251px" PostBackUrl="~/App_Interface/MasterClientes/InicioClientes.aspx" />
+                        </td>
+                        <td class="auto-style10"></td>
+                        <td class="auto-style13"></td>
+                        <td class="auto-style18">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style14"></td>
+                        <td class="auto-style15"></td>
+                        <td class="auto-style16"></td>
+                        <td class="auto-style19">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style5">&nbsp;</td>
+                        <td class="auto-style9">&nbsp;</td>
+                        <td class="auto-style12">&nbsp;</td>
+                        <td class="auto-style17">&nbsp;</td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+            </div>
+            <div class="clear hideSkiplink">
+                <table class="auto-style22">
+                    <tr>
+                        <td class="auto-style23">&nbsp;</td>
+                        <td>
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/App_Interface/MasterClientes/InicioClientes.aspx" Text="Página principal"/>
+                        <asp:MenuItem Text="Ver Carrito" Value="Ver Carrito" NavigateUrl="~/App_Interface/MasterClientes/Carrito.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Modificar Cuenta" Value="Modificar Cuenta" NavigateUrl="~/App_Interface/MasterClientes/ModificarCuenta.aspx"/>
+                        <asp:MenuItem Text="Inhabilitar Cuenta" Value="Inhabilitar Cuenta" NavigateUrl="~/App_Interface/MasterClientes/InhabilitarCuenta.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Salir" Value="Salir" NavigateUrl="~/App_Interface/MasterGeneral/InicioGeneral.aspx"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                    <br />
+                </p>
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="clear">
+            <asp:Label ID="Label1" runat="server" Font-Names="Segoe UI" Text="Supermercado Hipermás. Derechos Reservados. ©2012" Font-Bold="False"></asp:Label>
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>
